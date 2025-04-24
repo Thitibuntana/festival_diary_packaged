@@ -259,7 +259,7 @@ class _AddFestUIState extends State<AddFestUI> {
                           festName: festNameCtrl.text.trim(),
                           festDetail: festDetailCtrl.text.trim(),
                           festNumDay: int.parse(festNumDayCtrl.text.trim()),
-                          festCost: int.tryParse(festCostCtrl.text.trim()) ?? 0,
+                          festCost: double.tryParse(festCostCtrl.text.trim()) ?? 0,
                           userId: widget.userId,
                           festState: festStateCtrl.text.trim(),
                         );

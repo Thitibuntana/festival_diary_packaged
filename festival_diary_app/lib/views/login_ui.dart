@@ -205,7 +205,7 @@ class _LoginUIState extends State<LoginUI> {
                     'Copyright © 2025',
                   ),
                   Text(
-                    'Created by NinniN DTI-SAU',
+                    'Created by GG DTI-SAU',
                   ),
                   SizedBox(
                     height: 20.0,
